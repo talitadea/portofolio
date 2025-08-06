@@ -1,0 +1,80 @@
+.heder {
+    padding: 30px;
+
+}
+.bg-green{
+    background-color: rgb(20, 156, 209);
+    padding: 50px 50px;
+    margin: 25px 25px;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    gap: 30px; 
+    padding: 100px 150px;
+    justify-content: center;
+    background-color: rgb(133, 236, 243);
+}
+
+.hero-picture img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: buttom;
+}
+.about {
+    margin: 100px;
+    background-color: rgb(191, 221, 247);
+    padding: 30px;
+    border-radius:  20px;
+}
+.about h2 {
+    margin-top: 0;
+}
+.about p {
+    margin-bottom: 0;
+}
+.data-portofolio {
+    margin: 100px;
+    display:flex;
+    background-color: rgb(174, 209, 209);
+    padding: 30px;
+    border-radius:  90px;
+}
+.data-diri{
+    width: 50%;
+}
+.riwayat-pendidikan{
+    width: 50%;
+}
+.riwayat-pendidikan-data{
+    border-left: 3px solid black;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.riwayat-pendidikan-data p{
+    margin: 0;
+}
+
+/*untuk responsive di hp */
+@media screen and (max-width: 900px) {
+    .hero {
+        display: block;
+        text-align: center;
+    }
+    .data-portofolio{
+        display: block;
+        margin: 50px 100px;
+    }
+    .data-diri{
+        margin-bottom: 50px;
+    }
+    .riwayat-pendidikan{
+        margin-bottom: 50px;
+    }
+}
